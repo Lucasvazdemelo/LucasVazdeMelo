@@ -1,0 +1,817 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gabriel Dutra Dias</title>
+
+    <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/flag-icon/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Gabriel Dutra</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#timeline">Timeline</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about" data-pt-br="Sobre">About</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio" data-pt-br="Projetos">Projects</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact" data-pt-br="Contato">Contact</a>
+            </li>
+            <li class="nav-item dropdown mx-0 mx-lg-1">
+                <a class="nav-link dropdown-toggle py-3 px-0 px-lg-3 rounded" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-pt-br="<span class='flag-icon flag-icon-br'></span> PT"><span class="flag-icon flag-icon-gb"></span> EN</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item nav-link py-3 px-3 px-lg-3 rounded text-dark" id="br-flag" href="?lang=pt-br"><span class="flag-icon flag-icon-br"></span> PT</a>
+                  <a class="dropdown-item nav-link py-3 px-3 px-lg-3 rounded text-dark" id="gb-flag" href="?"><span class="flag-icon flag-icon-gb"></span> EN</a>
+                </div>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <img class="img-fluid img-profile rounded-circle mb-5 d-block mx-auto" src="img/profile.jpg" alt="">
+        <h1 class="text-uppercase mb-0">Gabriel Dutra</h1>
+        <hr class="star-light">
+        <h2 class="font-weight-light mb-3"><i class="fa fa-book"></i> <span data-pt-br="Estudante de Engenharia de Computação">Computer Engineering Student</span></h2>
+        <h2 class="font-weight-light mb-0"><i class="fa fa-briefcase"></i> <span data-pt-br="Estagiário no <a class='text-white' target='_blank' href='http://appprova.com.br/'>AppProva</a>">IT Intern at <a class='text-white' target='_blank' href='http://appprova.com.br/'>AppProva</a></span></h2>
+      </div>
+    </header>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Timeline</h2>
+            <hr class="star-dark mb-5">
+            <div id="cd-timeline" class="timeline cd-container">
+                <div class="container cd-timeline-block">
+                  <div class="cd-timeline-img cd-picture">
+                    <audio id="sound_coin" src="sound/mario_coin_sound.mp3" type="audio/mp3" preload="auto"></audio>
+                    <i class="fa fa-fw fa-play pointer" onclick="document.getElementById('sound_coin').play();"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2>Start the game</h2>
+                    <p data-pt-br="Esse é o ponto em que minha história começa :)">This is when my story began :)</p>
+                    <p data-pt-br="Nasci em Belo Horizonte">I was born in Belo Horizonte, MG, Brazil.</p>
+                    <span class="cd-date" data-pt-br="Julho de 1997">Jul 1997</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+            
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-movie">
+                      <i class="fa fa-fw fa-gamepad"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Mundo Dev? O que é isso?">Dev World? What is that?</h2>
+                    <p data-pt-br="Minha primeira experiência com código foi em GTA San Andreas Multiplayer. Eu tinha 12 anos e costumava jogar bastante... Os modos de jogo eram programados usando a linguagem <b>Pawn</b>, que é muito parecida com C.">My first code experience was with GTA San Andreas Multiplayer. I was 12 and I used to play it a lot... The gamemodes were programmed using <b>Pawn</b> language, which is very similar to C.</p>
+                    <span class="cd-date" data-pt-br="Janeiro de 2017">Jan 2010</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+            
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-blue">
+                      <i class="fa fa-fw fa-briefcase"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Vamos começar a trabalhar">Let's get to work</h2>
+                    <p data-pt-br="Meu primeiro emprego na área foi um estágio no <b>Departamento de Computação</b> do CEFET/MG.">My first job in the area was an internship at the <b>Computer Department</b> in CEFET/MG.</p>
+                    <p data-pt-br="Lá eu conheci e aprendi sobre o Tux, pinguim do Linux. Aprendi muito sobre infraestrutura, servidores, rede e manutenção de computadores.">This is where I met and got to know the Linux penguin (Tux). I learnt a lot about infrastructure, servers, network and computer maintenance.</p>
+                    <span class="cd-date" data-pt-br="Setembro de 2012">Set 2012</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+            
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-picture">
+                      <i class="fa fa-fw fa-book"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Hora de Estudar">Time to Study</h2>
+                    <p data-pt-br="Aprovado no <b>Colégio Técnico da UFMG</b> (COLTEC/UFMG), eu comecei meu ensino médio e técnico no curso de <b>informática</b>.">Approved at the <b>Technical School of UFMG</b> (COLTEC/UFMG), I started my highschool focused on <b>Computers and Technology</b>.</p>
+                    <span class="cd-date" data-pt-br="Fevereiro de 2013">Feb 2013</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-location">
+                    <i class="fa fa-fw fa-trophy"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Olimpíada Brasileira de Informática L1/2013">Brazilian Informatics Olympiad L1/2013</h2>
+                    <p data-pt-br="1º lugar de Minas Gerais na 1ª Fase.<br>69º lugar entre 1069 participantes na XV Olimpíada Brasileira de Informática na modalidade Programação Nível 1.">1st place in the state of Minas Gerais in the first step.<br>69th place from 1069 participants in the XV Brazilian Informatics Olympiad, in Level 1 programming modality.</p>
+                    <span class="cd-date" data-pt-br="Setembro de 2013">Set 2013</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-blue">
+                    <img src="img/cd-icon-location.svg" alt="Location">
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Viagem à Borås, Suécia">Trip to Borås, Sweden</h2>
+                    <p data-pt-br="Fui com o COLTEC/UFMG à cidade de <b>Borås, Suécia</b> em um projeto com parceria com a escola Bäckängsgymnasiet.">I went with COLTEC/UFMG to <b>Borås, Sweden</b> in a project in partnership with Bäckängsgymnasiet school.</p>
+                    <span class="cd-date" data-pt-br="Agosto de 2014">Aug 2014</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-location">
+                    <i class="fa fa-fw fa-trophy"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Olimpíada Brasileira de Informática L2/2014">Brazilian Informatics Olympiad L2/2014</h2>
+                    <p data-pt-br="66º lugar entre 712 participantes na XVI Olimpíada Brasileira de Informática na modalidade Programação Nível 2.">66th place from 712 participants in the XVI Brazilian Informatics Olympiad, in Level 2 programming modality.</p>
+                    <span class="cd-date" data-pt-br="Setembro de 2014">Set 2014</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-location">
+                    <i class="fa fa-fw fa-trophy"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Destaque no Programa de Estágio 2015 - Hackaton CI&T">Highlight on the Internship Program 2015 - Hackaton CI&T</h2>
+                    <p data-pt-br="Participação e destaque no Programa de Estágio 2015 - Hackaton, no dia 15 de Novembro de 2014, na sede da CI&T em Belo Horizonte.">Participation and highlight in the 2015 Internship Program - Hackaton.</p>
+                    <span class="cd-date" data-pt-br="Novembro de 2014">Nov 2014</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-blue">
+                      <i class="fa fa-fw fa-book"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Iniciação Científica em Reconhecimento de Ações Humanas">Scientific Initiation in Human Action Recognition</h2>
+                    <p data-pt-br="Primeira experiência científica na área de Ciência da Computação, trabalhei com a professora Virginia Fernandes Mota na pesquisa de doutorado: <b>Tensor Clustering for Human Action Recognition</b>.">First scientific experience in Computer Science, worked with the teacher Virginia Fernandes Mota in her PhD research: <b>Tensor Clustering for Human Action Recognition</b>.</p>
+                    <span class="cd-date" data-pt-br="Abril de 2015">Apr 2015</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-location">
+                    <i class="fa fa-fw fa-trophy"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Honra ao Mérito na Olimpíada Brasileira de Informática L2/2015">Honor at the Brazilian Informatics Olympiad L2/2015</h2>
+                    <p data-pt-br="20º lugar entre 1231 participantes na XVII Olimpíada Brasileira de Informática na modalidade Programação Nível 2.">20th place from 1231 participants in the XVII Brazilian Informatics Olympiad, in Level 2 programming modality.</p>
+                    <span class="cd-date" data-pt-br="Outubro de 2015">Out 2015</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-movie">
+                      <i class="fa fa-fw fa-book"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Formatura no COLTEC/UFMG">Graduated at COLTEC/UFMG</h2>
+                    <p data-pt-br="Ensino médio terminado, era agora um <b>Técnico em Informática</b>">Highschool was beaten. I'm now a <b>Computer Technician</b>.</p>
+                    <span class="cd-date" data-pt-br="Dezembro de 2015">Dec 2015</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-blue">
+                      <i class="fa fa-fw fa-briefcase"></i>
+                  </div> <!-- cd-timeline-img -->
+
+                <div class="cd-timeline-content">
+                  <h2 data-pt-br="Estágio na CI&T">Internship at CI&T</h2>
+                  <p data-pt-br="Trabalhei como Desenvolvedor no projeto internacional Coca-Cola.">I worked as a Developer in the Coca-Cola international project.</p>
+                  <span class="cd-date" data-pt-br="Fevereiro de 2016">Feb 2016</span>
+                </div> <!-- cd-timeline-content -->
+              </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-picture">
+                      <i class="fa fa-fw fa-book"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="Faculdade iniciada">College Stage Started</h2>
+                    <p data-pt-br="Comecei a estudar <b>Engenharia de Computação</b> no CEFET/MG">Started studying <b>Computer Engineering</b> at CEFET/MG</p>
+                    <span class="cd-date" data-pt-br="Agosto de 2016">Aug 2016</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-blue">
+                      <i class="fa fa-fw fa-briefcase"></i>
+                  </div> <!-- cd-timeline-img -->
+
+                <div class="cd-timeline-content">
+                  <h2 data-pt-br="Estágio no Núcleo de TI do CEFET/MG">Internship at the I.T. Core CEFET/MG</h2>
+                  <p data-pt-br="Comecei a fazer estágio no Núcleo de Tecnologia da Informação do CEFET/MG.">I started working as an intern at the IT Core CEFET/MG.</p>
+                  <span class="cd-date" data-pt-br="Março de 2017">Mar 2017</span>
+                </div> <!-- cd-timeline-content -->
+              </div> <!-- cd-timeline-block -->
+
+
+              <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-blue">
+                    <i class="fa fa-fw fa-briefcase"></i>
+                </div> <!-- cd-timeline-img -->
+
+              <div class="cd-timeline-content">
+                <h2 data-pt-br="Estágio no AppProva">Internship at AppProva</h2>
+                <p data-pt-br="Entrei como estagiário de TI na AppProva.">I started working as IT Intern at AppProva.</p>
+                <span class="cd-date" data-pt-br="Abril de 2018">Apr 2018</span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+            
+                <div class="cd-timeline-block">
+                  <div class="cd-timeline-img cd-movie">
+                    <i class="fa fa-fw fa-home"></i>
+                  </div> <!-- cd-timeline-img -->
+            
+                  <div class="cd-timeline-content">
+                    <h2 data-pt-br="E agora?">What will come next?</h2>
+                    <span class="cd-date" data-pt-br="Hoje">Today</span>
+                  </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+              </div> <!-- cd-timeline -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white" data-pt-br="Meus Hobbies">My Hobbies</h2>
+        <hr class="star-light mb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 mb-1">
+                  <img class="img-fluid rounded-circle" src="img/hobbies/cycling.jpg" alt="">
+              </div>
+              <div class="col-md-8 mt-2">
+                <h4 data-pt-br="Ciclismo">Cycling</h4>
+                <p class="text-justify inline-block" data-pt-br="Mais do que apenas uma atividade física, uma outra forma de viver. Comecei a pedalar em 2014 e foi amor à primeira pedalada. Hoje eu escolho a bicicleta para a maior parte do meu transporte cotidiano. Estou frequentemente pedalando pela cidade e explorando novos horizontes. É sempre uma nova aventura... Te convido a me seguir no <a href='https://www.strava.com/athletes/6722720' target='_blank' class='text-white'>Strava</a>.">More than just a sport activity, a new way of life. I started cycling in 2014, it was love at the first ride. Today most of my daily transport I choose to do by bike. I'm often cycling around near by cities and exploring new places, it's always an adventure! You can follow me on <a href="https://www.strava.com/athletes/6722720" target="_blank" class="text-white">Strava</a>.</p>
+              </div> 
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 mb-1">
+                  <img class="img-fluid rounded-circle" src="img/hobbies/cube.jpg" alt="">                
+              </div>
+              <div class="col-md-8 mt-2 order-md-first">
+                <h4 class="text-md-right" data-pt-br="Cubo Mágico">Rubik's Cube</h4>
+                <p class="text-justify" data-pt-br="Ótimo para exercitar o cérebro, relaxar ou passar o tempo. Hoje existem muitos tipos diferentes de cubo mágico e é com certeza é outro mundo do qual faço parte. Você pode ver meu <a href='https://www.worldcubeassociation.org/persons/2017DIAS01' class='text-white' target='_blank'>perfil na Associação Mundial de Cubo Mágico</a>.">Nice to exercise the brain, relax or entertain. There are lots of different kinds of cubes today and it's another world I'm deep inside. You can see my <a href='https://www.worldcubeassociation.org/persons/2017DIAS01' class='text-white' target='_blank'>profile on the World Cube Association</a></p>
+              </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <img class="img-fluid rounded-circle" src="img/hobbies/music.jpg" alt="">
+                </div>
+                <div class="col-md-8 mt-2">
+                  <h4 data-pt-br="Música">Music</h4>
+                  <p class="text-justify inline-block" data-pt-br="Eu adoro aprender coisas novas e quando se trata de música sempre há algo novo para se aprender. Eu comecei com uma gaita, o instrumento que sempre carrego na mochila. Teclado/Piano foi meu segundo instrumento. Durante os horários de almoço no ensino médio eu costumava tocar o piano da escola, certamente é o meu instrumento favorito. Hoje eu toco gaita, teclado, piano e violino.">I really enjoy learning new things and when it comes to music you always have a lot to learn. I started with a harmonica, the instrument which I'm always carrying in my bag. Keyboard/Piano was my second instrument. During my lunch time at highschool I used to play the school's piano and that's my favorite instrument of all. Today I can play the harmonica, the keyboard, the piano and the violin.</p>
+                </div>  
+            </div>
+
+            <div class="row mb-2">
+              <div class="col-md-4 mb-1">
+                  <img class="img-fluid rounded-circle" src="img/hobbies/beer.jpg" alt="">                
+              </div>
+              <div class="col-md-8 mt-2 order-md-first">
+                <h4 class="text-md-right" data-pt-br="Cerveja">Beer</h4>
+                <p class="text-justify text-md-right"><b>Cheers! Prost! Skål! Saúde!</b></p>
+                <p class="text-justify" data-pt-br="Gosto de beber diferentes tipos de cerveja. A <i>Beer License</i> está entre todos os meus códigos abertos. Lhe Fiz algo útil? Me pague com uma cerveja!">I enjoy drinking different types of beers. Beer License is all among my Open Source codes. Did I make something useful to you? Pay me a beer!</p>
+                <p class="text-justify text-md-right" data-pt-br="Ah e... minhas preferidas são as IPA's! ">BTW, my favorite one is the IPA!</p>
+              </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <img class="img-fluid rounded-circle" src="img/hobbies/things.jpg" alt="">                
+                </div>
+                <div class="col-md-8 mt-2">
+                  <h4 data-pt-br="Outras coisas legais">Other cool stuff</h4>
+                  <p class="text-justify" data-pt-br="Eu frequentemente tenho umas ideias criativas que adoro colocar em prática. A foto ao lado é da parede de lousa que fiz no meu quarto, fiz a tinta usando cola branca, rejunte e corante preto.">I often have some creative ideas that I love doing myself. This picture is from my chalkboard wall, I made the ink using white glue and spent a day painting it!</p>
+                </div>
+            </div>
+            <h2 class="text-center text-uppercase text-white" data-pt-br="Habilidades">Skills</h2>
+            <hr class="star-light mb-1">
+            <div class="row mx-auto mb-5">
+              <ul class="mx-auto list-inline list-icons h1">
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="HTML5">
+                  <i class="devicons devicons-html5"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="CSS3">
+                  <i class="devicons devicons-css3"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="JavaScript">
+                  <i class="devicons devicons-javascript"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="jQuery">
+                  <i class="devicons devicons-jquery"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="AngularJS">
+                  <i class="devicons devicons-angular"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="ReactJS">
+                  <i class="devicons devicons-react"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="Bootstrap">
+                  <i class="devicons devicons-bootstrap"></i>
+                </li>
+                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="" data-original-title="Materialize">
+                  <i class="devicons devicons-materializecss"></i>
+                </li>                
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="PHP">
+                  <i class="devicons devicons-php"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="Python">
+                  <i class="devicons devicons-python"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="Ruby">
+                  <i class="devicons devicons-ruby"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="Java">
+                  <i class="devicons devicons-java"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="MySQL">
+                  <i class="devicons devicons-mysql"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="PostgreSQL">
+                  <i class="devicons devicons-postgresql"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="Microsoft Visual Studio">
+                  <i class="devicons devicons-visualstudio"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="Atom">
+                    <i class="devicons devicons-atom"></i>
+                  </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="GitHub">
+                  <i class="devicons devicons-github"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="Bitbucket">
+                  <i class="devicons devicons-bitbucket"></i>
+                </li>
+                <li class="list-inline-item mx-auto" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linux">
+                  <i class="devicons devicons-linux"></i>
+                </li>
+              </ul>
+            </div>            
+            <h2 class="text-center text-uppercase text-white" data-pt-br="Idiomas">Languages</h2>
+            <hr class="star-light mb-1">
+            <div class="row">
+                <aside class="mx-auto skills aside section">
+                    <div class="section-inner">
+                        <div class="content">                         
+                            <div class="skillset">                               
+                                <div class="item">
+                                    <h3 class="level-title"><span data-pt-br="Português">Portuguese</span><span class="level-label" data-pt-br="Nativo">Native</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="100%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                               
+                                <div class="item">
+                                    <h3 class="level-title"><span data-pt-br="Inglês">English</span><span class="level-label" data-pt-br="Avançado">Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                               
+                                <div class="item">
+                                    <h3 class="level-title"><span data-pt-br="Espanhol">Spanish</span><span class="level-label" data-pt-br="Intermediário">Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="50%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                <h3 class="text-center text-uppercase text-white" data-pt-br="Versões Futuras">Future Releases</h3>
+                                <div class="item">
+                                    <h3 class="level-title"><span data-pt-br="Francês">French</span><span class="level-label" data-pt-br="Incubando">Incubating</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="8%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                               
+                                <div class="item">
+                                    <h3 class="level-title"><span data-pt-br="Alemão">German</span><span class="level-label" data-pt-br="Incubando">Incubating</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="2%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- <section class="timeline" id="timeline">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Timeline</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          Timeline
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0" data-pt-br="Projetos">Projects</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/projects/CameraViewer.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/projects/luizarte_t.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/projects/ksengame_t.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/projects/compop_t.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/projects/catapultsgame_t.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/projects/rcradvweb_t.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-primary text-white mb-0" id="contact">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-white mb-4" data-pt-br="Café ou Cerveja?">Coffee or Beer?</h2>
+          <h2 class="text-center text-white"><i class="fa fa-coffee"></i> x <i class="fa fa-beer"></i></h2> 
+          <hr class="star-light mb-5">
+          <h4 class="text-center" data-pt-br="Ei, Sente-se! Se quiser tomar um café ou uma cerveja... meus contatos estão aí embaixo ;)">Hey, have a seat, if you want to chat and share a coffee or a beer, my contact information is below ;)</h4>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4" data-pt-br="Localização">Location</h4>
+            <p class="lead mb-0" data-pt-br="Belo Horizonte, MG<br>Brasil">Belo Horizonte, MG
+              <br>Brazil</p>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4" data-pt-br="Redes Sociais">Around the Web</h4>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.facebook.com/gabriel.dutradias">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.instagram.com/gdutrad/">
+                  <i class="fa fa-fw fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://github.com/gabrieldutra">
+                  <i class="fa fa-fw fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://api.whatsapp.com/send?phone=5531991407930">
+                  <i class="fa fa-fw fa-whatsapp"></i>
+                </a>
+              </li>
+              <!-- <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-google-plus"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+              </li> -->
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.linkedin.com/in/gabrieldd/en">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              <!-- </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-dribbble"></i>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4" data-pt-br="Contato">Contact</h4>
+            <p class="lead mb-0"><i class="fa fa-fw fa-envelope"></i>
+              <a href="mailto:gdutra.dev@gmail.com">gdutra.dev@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; Gabriel Dutra Dias 2018</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Camera Viewer - CEFET/MG</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/projects/CameraViewer.png" alt="">
+              <p class="mb-5" data-pt-br="Projeto desenvolvido como uma ferramenta disponível para os funcionários do CEFET/MG acessarem as câmeras do campus. Foi desenvolvido usando jHipster (AngularJS 2 + Java Spring)">Project developed to be a tool for CEFET/MG employees to access the cameras. It was developed using jHipster (AngularJS 2 + Java Spring)</p>               
+              <a class="btn btn-primary btn-lg rounded-pills text-white" target="_blank" href="https://github.com/ntic-cefetmg/CameraViewer">
+                <i class="fa fa-fw fa-github"></i>
+                GitHub
+              </a>
+              <a class="btn btn-danger btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                 <span data-pt-br="Fechar Projeto">Close Project</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">          
+          <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0" data-pt-br="Site Luiz Arte Culinária">Website Luiz Arte Culinária</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/projects/luizarte.jpg" alt="">
+                <p class="mb-5" data-pt-br="Desenvolvimento e manutenção do site do Buffet Luiz Arte Culinária.">Development and maintenance of the Buffet Luiz Arte Culinária website.</p>
+                <p><b data-pt-br="Tecnologias:">Technologies:</b></p>
+                <ul class="mx-auto">
+                  <li>AngularJS;</li>
+                  <li>Bootstrap;</li>
+                  <li>PHP Slim;</li>
+                </ul>
+                <a class="btn btn-primary btn-lg rounded-pills text-white" target="_blank" href="https://www.luizarteculinaria.com.br">
+                  <i class="fa fa-fw fa-globe"></i>
+                  <span data-pt-br="Acessar">Access</span>
+                </a>
+                <a class="btn btn-danger btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                  <i class="fa fa-close"></i>
+                  <span data-pt-br="Fechar Projeto">Close Project</span></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0" data-pt-br="Jogo em Java (Ksen Game)">Java Game (Ksen Game)</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/projects/ksengame.jpg" alt="">
+              <div class="embed-responsive embed-responsive-16by9 mb-5">
+                  <iframe width="560" height="315" src="//www.youtube.com/embed/1Soes-LzlZE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+              <p class="mb-5" data-pt-br="Trabalho final da disciplina de Tecnologia de Programação no COLTEC/UFMG - Jogo desenvolvido em Java. Jogo feito utilizando as diversas tecnologias aprendidas durante o curso, tais como: Sockets, JDBC, Threads, Java2D e Slick2D.">Final work in Programming Technology subject at COLTEC/UFMG - Game developed in Java. It was done using several technologies learnt during the course, such as: Sockets, JDBC, Threads, Java2D and Slick2D.
+
+                  Code available in Portuguese only.</p>
+              <a class="btn btn-primary btn-lg rounded-pills text-white" target="_blank" href="https://github.com/gabrieldutra/KsenGame">
+                <i class="fa fa-fw fa-github"></i>
+                GitHub
+              </a>
+              <a class="btn btn-danger btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                <span data-pt-br="Fechar Projeto">Close Project</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0" data-pt-br="Central de Oportunidades - CEFET/MG">Oportunity Central - CEFET/MG</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/projects/compop.jpg" alt="">
+              <p class="mb-5" data-pt-br="Esta plataforma foi desenvolvida durante a competição <a href='https://github.com/cefetmg-decom/2016-celebrations' target='_blank'>DECOM Celebrations</a> em comemoração ao aniversário de 10 anos do DECOM. Ela tem o objetivo de atender a demanda dos alunos do curso de Engenharia de Computação de encontrar atividades complementares para cumprir com a obrigatoriedade curricular.
+
+              O sistema possui back end em PHP usando Slim e front end utilizando Bootstrap e AngularJS.">This platform was developed during the contest <a href='https://github.com/cefetmg-decom/2016-celebrations' target='_blank'>DECOM Celebrations</a> celebrating 10 years birthday of The Computer's Department CEFET/MG. The focus is to help students find extra activities at college.
+                  The system was developed using PHP backend with Slim Framework and frontend AngularJS + Bootstrap.</p>
+              <a class="btn btn-primary btn-lg rounded-pills text-white" target="_blank" href="https://github.com/gabrieldutra/compop">
+                <i class="fa fa-fw fa-github"></i>
+                GitHub
+              </a>
+              <a class="btn btn-danger btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                <span data-pt-br="Fechar Projeto">Close Project</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0" data-pt-br="Catapults - Jogo em OpenGL">Catapults - OpenGL Game</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/projects/catapultsgame.jpg" alt="">
+              <div class="embed-responsive embed-responsive-16by9 mb-5">
+                  <iframe width="560" height="315" src="//www.youtube.com/embed/wbByFII9Vr0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+              <p class="mb-5" data-pt-br="Versão medieval do jogo Asteroids, <a href='https://github.com/fegemo/cefet-cg/blob/master/assignments/tp1-asteroids/README.md#trabalho-pr%C3%A1tico-1---paradoroids' target='_blank'>TP1</a> da matéria de Computação Gráfica do 2o período de Engenharia de Computação no CEFET/MG.">Medieval version of the game Asteroids, First Practical Work of the Computer Graphics subject - Computer Engineering CEFET/MG. Developed with Bruno Damacena</p>
+              <a class="btn btn-primary btn-lg rounded-pills text-white" target="_blank" href="https://github.com/gabrieldutra/Catapults">
+                <i class="fa fa-fw fa-github"></i>
+                GitHub
+              </a>
+              <a class="btn btn-danger btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                <span data-pt-br="Fechar Projeto">Close Project</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0" data-pt-br="Site RCR">Website RCR</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/projects/rcradvweb.jpg" alt="">
+              <p class="mb-5" data-pt-br="Desenvolvimento e manutenção do site da RCR Assessoria e Consultoria em Recursos Humanos">Development and maintenance of the RCR Assessoria e Consultoria em Recursos Humanos website.</p>
+              <a class="btn btn-primary btn-lg rounded-pills" target="_blank" href="https://www.rcradv.com.br">
+                <i class="fa fa-fw fa-globe"></i>
+                <span data-pt-br="Acessar">Access</span>
+              </a>
+              <a class="btn btn-danger btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                <span data-pt-br="Fechar Projeto">Close Project</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+    <script src="js/modernizr.min.js"></script>
+
+  </body>
+
+</html>
